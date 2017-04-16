@@ -1,6 +1,6 @@
 import requests,json,sys
 p = input("Enter word to be searched.")
-url = "https://od-api.oxforddictionaries.com:443/api/v1/entries/en/"
+url = "https://od-api.oxforddictionaries.com:443/api/v1/entries/en/" #APIs provided by oxford
 url+=p
 
 headers = {
